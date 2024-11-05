@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linguagens de Programação e Frameworks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Aprenda Linguagens de Programação e Seus Frameworks</h1>
+        <nav>
+            <div class="menu">
+                <div class="parte_de_cima">
+                    <a href="#frontend">Frontend</a>
+                </div>
+                <div class="parte_de_cima">
+                    <a href="#backend">Backend</a>
+                </div>
+                <div class="parte_de_cima">
+                    <a href="#principais-linguagens">Principais Linguagens</a>
+                </div>
+                <div class="parte_de_cima">
+                    <a href="#quizz">quizz</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="frontend">
+        <h1>Frontend</h1>
+        <button id="toggleTextBtn">Esconder</button>
+        <p id="textToToggle">O frontend lida com a interface do usuário e a interação visual no lado do cliente.</p>
+
+        <h2 id="textToToggle">Principais Linguagens:</h2>
+        <div>
+            <strong id="textToToggle">JavaScript:</strong> Usada para criar elementos interativos em páginas web.
+        </div>
+
+        <div>
+            <strong>TypeScript:</strong> Superset do JavaScript com tipagem estática.
+        </div>
+
+        <div>
+            <strong>HTML & CSS:</strong> Essenciais para a estrutura e estilo de páginas web.
+        </div>
+
+        <h1>Principais Frameworks do Frontend</h1>
+        <div>
+            <strong>React:</strong> Biblioteca para construir interfaces baseadas em componentes.
+            <a href="https://reactjs.org/">Curso de React</a>
+        </div>
+
+        <div>
+            <strong>Vue.js:</strong> Framework progressivo, fácil de integrar.
+            <a href="https://vuejs.org/">Curso de Vue.js</a>
+        </div>
+
+        <div>
+            <strong>Angular:</strong> Framework robusto para grandes aplicações.
+            <a href="https://angular.io/">Curso de Angular</a>
+        </div>
+
+        <div>
+            <strong>Svelte:</strong> Framework moderno que compila em JavaScript puro.
+            <a href="https://svelte.dev/">Curso de Svelte</a>
+        </div>
+    </section>
+
+    <script>
+        const textToToggle = document.getElementById('textToToggle');
+        const toggleTextBtn = document.getElementById('toggleTextBtn');
+
+        toggleTextBtn.addEventListener('click', function () {
+            if (textToToggle.style.display === 'none') {
+                textToToggle.style.display = 'block';
+                toggleTextBtn.textContent = 'Esconder';
+            } else {
+                textToToggle.style.display = 'none';
+                toggleTextBtn.textContent = 'Mostrar';
+            }
+        });
+    </script>
+
+    <section id="backend">
+        <h1>Backend</h1>
+        <p>O backend lida com a lógica, gerenciamento de banco de dados e comunicação entre servidores e clientes.</p>
+        <h2>Principais Linguagens:</h2>
+        <div>
+            <strong>JavaScript (Node.js):</strong> Usado tanto no frontend quanto no backend.
+        </div>
+
+        <div>
+            <strong>Python:</strong> Popular para ciência de dados e desenvolvimento web.
+        </div>
+
+        <div>
+            <strong>Java:</strong> Muito usado em grandes sistemas corporativos.
+        </div>
+
+        <div>
+            <strong>Ruby:</strong> Usado para desenvolvimento web rápido.
+        </div>
+        <h1>Principais Frameworks do Backend:</h1>
+        <div>
+            <strong>Express.js:</strong> Framework minimalista para Node.js.
+            <a href="https://expressjs.com/">Curso de Express.js</a>
+        </div>
+
+        <div>
+            <strong>Django:</strong> Framework full-stack para Python.
+            <a href="https://www.djangoproject.com/">Curso de Django</a>
+        </div>
+
+        <div>
+            <strong>Spring Boot:</strong> Framework para Java.
+            <a href="https://spring.io/projects/spring-boot">Curso de Spring Boot</a>
+        </div>
+
+        <div>
+            <strong>Ruby on Rails:</strong> Framework para Ruby.
+            <a href="https://rubyonrails.org/">Curso de Ruby on Rails</a>
+        </div>
+
+    </section>
+
+    <section id="principais-linguagens">
+        <h1>Principais Linguagens de Programação em 2024</h1>
+        <div>
+            <strong>Python:</strong> Ideal para ciência de dados, inteligência artificial e automação.
+            <a href="https://www.coursera.org/courses?query=python">Curso de Python na Coursera</a>
+            <a href="https://www.udemy.com/course/python-the-complete-python-developer-course/">Curso de Python na
+                Udemy</a>
+        </div>
+
+        <div>
+            <strong>JavaScript:</strong> Onipresente no desenvolvimento web, tanto no frontend quanto no backend.
+            <a href="https://www.udemy.com/course/the-complete-javascript-course/">Curso de JavaScript na Udemy</a> |
+            <a href="https://www.freecodecamp.org/learn/front-end-libraries/#react">Curso de JavaScript no
+                freeCodeCamp</a>
+        </div>
+
+        <div>
+            <strong>Java:</strong> Usado em sistemas corporativos e aplicações Android.
+            <a href="https://www.udemy.com/course/java-the-complete-java-developer-course/">Curso de Java na Udemy</a> |
+            <a href="https://www.coursera.org/learn/java-programming">Curso de Java na Coursera</a>
+        </div>
+
+        <div>
+            <strong>C#:</strong> Usado para aplicações Windows e desenvolvimento de jogos.
+            <a href="https://www.udemy.com/course/complete-csharp-developer-zero-to-mastery/">Curso de C# na Udemy</a> |
+            <a href="https://learn.microsoft.com/en-us/learn/paths/csharp-first-steps/">Curso de C# na Microsoft
+                Learn</a>
+        </div>
+
+        <div>
+            <strong>Go (Golang):</strong> Popular em microserviços e sistemas de infraestrutura.
+            <a href="https://www.udemy.com/course/go-the-complete-developers-guide/">Curso de Go na Udemy</a> |
+            <a href="https://www.coursera.org/courses?query=go%20programming">Curso de Go na Coursera</a>
+        </div>
+
+        <div>
+            <strong>Rust:</strong> Focado em segurança de memória e alta performance.
+            <a href="https://www.udemy.com/course/rust-programming-language/">Curso de Rust na Udemy</a> |
+            <a href="https://www.coursera.org/learn/rust-programming">Curso de Rust na Coursera</a>
+        </div>
+    </section>
+
+    <section>
+        <h1>Diversão</h1>
+        <button id="changeColorBtn">Mudar Cor de Fundo</button>
+        <script>
+            function getRandomColor() {
+                const letters = '0123456789ABCDEF';
+                let color = '#';
+                for (let i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 16)];
+                }
+                return color;
+            }
+
+            document.getElementById('changeColorBtn').addEventListener('click', function () {
+                document.body.style.backgroundColor = getRandomColor();
+            });
+        </script>
+
+        <button id="clickCounterBtn">Clique aqui</button>
+        <p id="counter">Cliques: 0</p>
+
+        <script>
+            let count = 0;
+
+            document.getElementById('clickCounterBtn').addEventListener('click', function () {
+                count++;
+                document.getElementById('counter').textContent = "Cliques: " + count;
+            });
+        </script>
+
+
+
+
+    </section>
+
+    <section id="quizz">
+        <h1>Quizz</h1>
+        <button onclick="verificarResposta()">Quizz 1</button>
+        <button onclick="verificarResposta2()">Quizz 2</button>
+        <button onclick="verificarResposta3()">Quizz 3</button>
+    </section>
+</body>
+<script src="scripts.js" defer></script>
+
+</html>
